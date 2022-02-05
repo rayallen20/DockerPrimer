@@ -613,7 +613,7 @@ RUN apt-get update \
 例:Dockerfile所在路径为`/tmp/docker_builder/`,Dockerfile文件名为`Dockerfile1`,要求构建的镜像标签为`builder/first_image:1.0.0`
 
 ```
-docker build -t builder/first_image:1.0.0 -f /tmp/docker_builder/Dockerfile1
+docker build -t builder/first_image:1.0.0 -f /tmp/docker_builder/Dockerfile1 .
 ```
 
 ### 8.3.1 命令选项
