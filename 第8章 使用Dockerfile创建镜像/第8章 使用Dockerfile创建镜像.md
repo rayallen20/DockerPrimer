@@ -326,7 +326,7 @@ Dockerfile中指令的一般格式为`INSTRUCTION arguments`,根据功能可以�
 |RUN|运行指定命令|
 |CMD|启动容器时指定默认执行的命令|
 |ADD|添加内容到镜像|
-|COPY|赋值内容到镜像|
+|COPY|复制内容到镜像|
 
 ### 8.2.1 配置指令
 
